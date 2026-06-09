@@ -15,11 +15,11 @@ A simple login and signup system built with PHP and MySQL. Users can create an a
 
 | Homepage | Sign Up |
 |---|---|
-| ![Homepage](ScreenShot/Screenshot%202026-06-08%20155445.png) | ![Sign Up](ScreenShot/Screenshot%202026-06-09%20182408.png) |
+| ![Homepage](ScreenShot/Screenshot%202026-06-08%20155445.png) | ![Sign Up](ScreenShot/Screenshot%202026-06-09%20182446.png) |
 
 | Log In | Logged In |
 |---|---|
-| ![Log In](ScreenShot/Screenshot%202026-06-09%20182446.png) | ![Logged In](ScreenShot/Screenshot%202026-06-09%20182453.png) |
+| ![Log In](ScreenShot/Screenshot%202026-06-09%20182453.png) | ![Logged In](ScreenShot/Screenshot%202026-06-09%20182408.png) |
 
 ## Project Structure
 
