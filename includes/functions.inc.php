@@ -102,6 +102,11 @@ function loginUser($conn, $name, $password) {
         exit();
     }
 
+    if (!isset($uidExists["usersPassword"])) {
+        header("location: ../login.php?error=wronglogin");
+        exit();
+    }
+
     $pwdHashed = $uidExists["usersPassword"];
     $checkPwd = password_verify($password, $pwdHashed);
 

@@ -16,7 +16,6 @@ section_start();
 
 <body>
 
-  <!-- NAV -->
   <nav>
     <a href="index.php" class="nav-brand">Blogs</a>
     <ul class="nav-links">

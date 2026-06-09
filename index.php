@@ -2,19 +2,16 @@
 include_once("header.php");
 ?>
 
-
-  <!-- HERO -->
   <section class="hero">
       <?php
         if(isset($_SESSION["userid"])) {
-          echo '<p>Welcome, ' . $_SESSION["username"] . '!</p>';
+          echo '<p>Welcome, ' . $_SESSION["useruid"] . '!</p>';
         }
       ?>
     <h1>This Is An Introduction</h1>
     <p>Here is an important paragraph that explains the purpose of the website and why you are here!</p>
   </section>
 
-  <!-- CATEGORIES -->
   <section class="categories">
     <h2>Some Basic Categories</h2>
     <div class="card-grid">
